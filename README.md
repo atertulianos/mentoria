@@ -27,7 +27,7 @@
 
 ### `npm install`
 
-### `yarn start` <br />
+### `npm start` <br />
 
 - roda em modo de desenvolvimento:
 
