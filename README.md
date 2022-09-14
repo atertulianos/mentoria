@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ✔️ Técnicas e tecnologias utilizadas
 
-## Available Scripts
+- `Node.Js v16.17.1`
+- `React.Js latest`
+- `Styled Components`
+- `HTML 5`
+- `SCSS 3`
+- `Orientação a objetos`
+- `S.O.L.I.D`
+- `API REST FULL`
 
-In the project directory, you can run:
+## 🚀 Acesso ao Projeto.
 
-### `yarn start`
+- Faça o clone do repositório do github para uma pasta no seu computador. <br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `utilize o terminal ou prompt de comandos` <br />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`C:\Users\infra\projeto-mentoria> git clone git@github.com:atertulianos/mentoria.git`
 
-### `yarn test`
+## 🛠️ Abrir e Rodar o Projeto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Entre no diretório do projeto-mentoria digitando o comando <br />
 
-### `yarn build`
+#### `cd` projeto-mentoria
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `yarn install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `yarn start` <br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- roda em modo de desenvolvimento:
 
-### `yarn eject`
+```js
+Compiled successfully!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You can now view mentoria in the browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ Local:            http://localhost:3000
+ On Your Network:  http://10.0.0.112:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Note that the development build is not optimized.
+To create a production build, use npm run build.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+webpack compiled successfully
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
