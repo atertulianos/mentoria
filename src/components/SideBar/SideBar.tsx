@@ -1,22 +1,22 @@
 import React from "react";
-
+import { Container } from "./styles";
 
 export default function SideBar() {
     return (
-        <>
+        <Container>
             <main>
-                <section class="d-flex">
-                    <div id="list-example" class="list-group w-25 px-3">
-                        <a class="list-group-item list-group-item-action text-start" href="#list-item-1">What is Lorem Ipsum?</a>
-                        <a class="list-group-item list-group-item-action text-start" href="#list-item-2">Why do we use it?</a>
-                        <a class="list-group-item list-group-item-action text-start" href="#list-item-3">Where does it come from?</a>
-                        <a class="list-group-item list-group-item-action text-start" href="#list-item-4">Where can I get some?</a>
+                <section className="d-flex">
+                    <div id="list-example" className="list-group w-25 px-3">
+                        <a className="list-group-item list-group-item-action text-start" href="#list-item-1">What is Lorem Ipsum?</a>
+                        <a className="list-group-item list-group-item-action text-start" href="#list-item-2">Why do we use it?</a>
+                        <a className="list-group-item list-group-item-action text-start" href="#list-item-3">Where does it come from?</a>
+                        <a className="list-group-item list-group-item-action text-start" href="#list-item-4">Where can I get some?</a>
                     </div>
-                    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example w-75 px-3 SideBar-content" tabindex="0">
+                    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" className="scrollspy-example w-75 px-3 SideBar-content">
                         <h4 id="list-item-1">
                             What is Lorem Ipsum?
                         </h4>
-                        <p class="text-start mt-3 mb-5 paragrafos">
+                        <p className="text-start mt-3 mb-5 paragrafos">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -28,7 +28,7 @@ export default function SideBar() {
                         <h4 id="list-item-2 text-start">
                             Why do we use it?
                         </h4>
-                        <p class="text-start mt-3 mb-5">
+                        <p className="text-start mt-3 mb-5">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -40,7 +40,7 @@ export default function SideBar() {
                         <h4 id="list-item-3 text-start">
                             Where does it come from?
                         </h4>
-                        <p class="text-start mt-3 mb-5">
+                        <p className="text-start mt-3 mb-5">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -52,7 +52,7 @@ export default function SideBar() {
                         <h4 id="list-item-4 text-start">
                             Where can I get some?
                         </h4>
-                        <p class="text-start mt-3 mb-5">
+                        <p className="text-start mt-3 mb-5">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -64,6 +64,6 @@ export default function SideBar() {
                     </div>
                 </section>
             </main>
-        </>
+        </Container>
     )
 }
